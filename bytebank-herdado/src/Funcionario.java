@@ -5,7 +5,9 @@ public class Funcionario {
 	private String cpf;
 	private double salario;
 	
-	public abstract double getBonificacao();
+	public double getBonificacao() {
+		return 0;
+	}
 	
 	public String getNome() {
 		return nome;
@@ -25,8 +27,4 @@ public class Funcionario {
 	public void setSalario(double salario) {
 		this.salario = salario;
 	}
-	
-	
-	
-
 }
