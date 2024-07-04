@@ -15,7 +15,7 @@ public class Funcionario {
 
 	public void setNome(String nome) {
 		this.nome = nome;
-	}
+	}  
 
 	public String getCpf() {
 		return cpf;
@@ -33,4 +33,7 @@ public class Funcionario {
 		this.salario = salario;
 	}
 
+	
+	
+	
 }

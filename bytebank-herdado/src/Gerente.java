@@ -1,4 +1,3 @@
-
 public class Gerente extends Funcionario {
 
 	private int senha;
@@ -19,4 +18,6 @@ public class Gerente extends Funcionario {
 		return super.getBonificacao() + super.salario;
 	}
 
+
 }
+
