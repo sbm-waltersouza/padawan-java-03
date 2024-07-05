@@ -5,9 +5,8 @@ public abstract class Funcionario {
 	private String cpf;
 	private double salario;
 	
-	public double getBonificacao() {
-		return 0;
-	}
+	//metodo sem corpo, nao tem implementação aqui, apenas nos filhos
+	public abstract double getBonificacao();
 	
 	public String getNome() {
 		return nome;
