@@ -1,16 +1,17 @@
-public abstract class FuncionarioAutenticavel extends Funcionario {
 
-        private int senha;
+public abstract class FuncionarioAutenticavel extends Funcionario{
 
-        public void setSenha(int senha) {
-            this.senha = senha;
+    private int senha;
+
+    public void setSenha(int senha){
+        this.senha = senha;
+    }
+
+    public boolean autentica(int senha){
+        if(this.senha == senha){
+            return true;
+        } else {
+            return false;
         }
-
-        public boolean autentica(int senha) {
-            if(this.senha == senha) {
-                return true;
-            } else {
-                return false;
-            }
-        }
+    }
 }
