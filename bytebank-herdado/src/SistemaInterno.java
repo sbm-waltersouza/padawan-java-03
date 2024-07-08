@@ -2,9 +2,9 @@ public class SistemaInterno{
 
     private int senha = 2222;
 
-    public void autentica(Gerente g){
+    public void autentica(Cliente cliente){
 
-        boolean autenticou = g .autentica(this.senha);
+        boolean autenticou = cliente .autentica(this.senha);
 
         if(autenticou){
             System.out.println("Pode entrar no sistema");
